@@ -43,3 +43,23 @@ body {
     background-color: #1F2937;
     padding: 50px 80px;
 }
+
+.title-s1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.text-s1 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn-s1 {
+    padding: 15px;
+    color: #f9faf8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
