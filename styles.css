@@ -39,27 +39,143 @@ body {
 
 .main-s1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
     padding: 50px 80px;
 }
 
 .title-s1 {
+    width:  400px;
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
 .text-s1 {
+    width:  460px;
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .btn-s1 {
+    margin-top: 10px;
     padding: 15px;
     color: #f9faf8;
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
     font-size: 18px;
+}
+
+.img-container-s1 > img {
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+/*MAIN-S2*/
+
+.main-s2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    gap: 25px;
+}
+
+.title-s2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.img-container-s2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.img-card {
+    width: 350px;
+    text-align: center;
+}
+
+.img-s2 {
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    border: 4px solid #3882F6;
+}
+
+/*MAIN-S3*/
+
+.main-s3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    gap: 25px;
+    background-color: #e5e7eb;
+}
+
+.quote-s3 {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author-s3 {
+    width: 800px;
+    text-align: end;
+    font-weight: 900;
+}
+
+/*MAIN-S4*/
+
+.main-s4 {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-s4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    width: 800px;
+    border-radius: 15px;
+    padding: 50px;
+    
+}
+
+.title-s4 {
+    font-size: 24px;
+    color: #e5e7eb;
+    font-weight: 900;
+}
+
+.text-s4 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn-s4 {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #e5e7eb;
+    background-color: #3882F6;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+}
+
+/*FOOTER*/
+
+.footer {
+    padding: 25px;
+    background-color: #1F2937;
+    text-align: center;
+    color: #e5e7eb;
 }
